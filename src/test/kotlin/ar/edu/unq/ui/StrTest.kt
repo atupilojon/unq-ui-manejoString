@@ -27,12 +27,12 @@ class StrTest {
     @Test
     fun countWordTest() {
         val unString = Str()
-        assertTrue(unString.words("construnccion de interfaces de usuario") == 5)
+        assertTrue(unString.words("construccion de interfaces de usuario") == 5)
     }
 
     @Test
     fun countParagraphTest() {
         val unString = Str()
-        assertTrue(unString.paragraph("Construnccion de interfaces de usuario.\nUNQ.\nFin.") == 3)
+        assertTrue(unString.paragraph("Construccion de interfaces de usuario.\nUNQ.\nFin.") == 3)
     }
 }
